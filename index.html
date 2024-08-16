@@ -3,23 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose Rocha Portfolio</title>
+    <title>Jose Rocha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body { font-family: Arial, sans-serif; }
-        header { text-align: center; padding: 50px; }
-        nav { text-align: center; margin-top: 20px; }
-        nav a { margin: 0 15px; text-decoration: none; color: #333; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            margin: 0;
+        }
+        .profile-picture {
+            float: right;
+            border-radius: 50%;
+            max-width: 150px;
+            margin: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Jose Rocha | Aspiring Software Developer</p>
+        <img src="thumbnail_digital-passport.jpg" alt="Jose Rocha" class="profile-picture">
+        <h1>Jose Rocha</h1>
+        <p>Aspiring Software Developer</p>
+        <p>Email: <a href="mailto:josearochag@outlook.com">josearochag@outlook.com</a></p>
+        <p>Phone: <a href="tel:+12063515650">+1 206-351-5650</a></p>
     </header>
     <nav>
-        <a href="resume.html">Resume</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="work.html">Work Samples</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Jose Rocha, an aspiring software developer with a passion for coding and technology. I have experience working in various roles, including technical support and system architecture, and am currently focused on building a career in software development.</p>
+            <p>In my spare time, I enjoy basketball, football, and gaming. I am eager to connect with others in the tech industry and beyond.</p>
+        </section>
+        <section id="work">
+            <h2>Work Samples</h2>
+            <div class="work-sample">
+                <h3>Scary Book Website</h3>
+                <p><strong>Project Overview:</strong> For one of my coursework assignments, I developed a website dedicated to showcasing a collection of spooky books. The goal was to create an engaging, immersive experience that resonated with the eerie and chilling theme of the books.</p>
+                <p><strong>Role and Responsibilities:</strong> As the lead developer for this project, I handled both the design and development aspects. My responsibilities included crafting a visually compelling and thematically cohesive design, as well as coding the site to ensure it was both functional and responsive.</p>
+                <p><strong>Project Goals:</strong></p>
+                <ul>
+                    <li>Create a Thematic Experience: Capture the essence of horror and suspense through the website's design and content.</li>
+                    <li>Showcase a Collection: Feature various spooky books with detailed descriptions and interactive elements.</li>
+                    <li>Engage the Audience: Create an engaging experience with thematic visuals and interactive features.</li>
+                </ul>
+                <p><strong>Design and Development:</strong></p>
+                <ul>
+                    <li><strong>Theme and Aesthetics:</strong> Incorporated a dark color palette with rich reds and grays, using custom illustrations and eerie fonts.</li>
+                    <li><strong>User Experience:</strong> Added interactive elements like hover effects and dynamic content to enhance the spooky experience.</li>
+                    <li><strong>Responsiveness:</strong> Ensured the website looked and functioned well on various devices.</li>
+                </ul>
+                <p><strong>Technologies and Tools:</strong></p>
+                <ul>
+                    <li>HTML/CSS: Built the website structure and styling with custom spooky-themed styles.</li>
+                    <li>JavaScript: Implemented interactive elements such as a book carousel and lightbox effects.</li>
+                    <li>Photoshop: Designed custom graphics and visual elements for a cohesive look.</li>
+                </ul>
+                <p><strong>Outcome:</strong> The final product was a visually striking and thematically immersive website that effectively conveyed the spooky atmosphere of the book collection. Feedback was positive, highlighting the engaging design and thematic elements.</p>
+                <p><strong>Conclusion:</strong> This project allowed me to apply my web development skills and creatively integrate thematic design elements. It reinforced the importance of a cohesive user experience aligned with the project's theme.</p>
+                <!-- Optional: Add a screenshot or link to the live project -->
+                <img src="Screenshot_16-8-2024_93758_.jpeg" alt="Scary Book Website Screenshot">
+            </div>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <a href="resume.html" target="_blank">View Resume (HTML)</a><br>
+            <a href="Jose_Rocha_Resume.docx" target="_blank">Download Resume (Word)</a><br>
+            <a href="Jose_Rocha_Resume.pdf" target="_blank">Download Resume (PDF)</a><br>
+            <a href="Jose_Rocha_Resume.txt" target="_blank">Download Resume (Text)</a>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me via email at <a href="mailto:josearochag@outlook.com">josearochag@outlook.com</a> or call me at <a href="tel:+12063515650">+1 206-351-5650</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jose Rocha. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,158 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Navigation styles */
+nav {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styles */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Resume styles */
+#resume a {
+    display: block;
+    margin: 0.5rem 0;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+/* Contact page styles */
+#contact p {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Work Sample styles */
+.work-sample {
+    margin-bottom: 30px;
+}
+
+.work-sample h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.work-sample p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.work-sample img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

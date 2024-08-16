@@ -21,7 +21,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #555;
         }
         h1 {
@@ -33,6 +33,10 @@
             margin-bottom: 5px;
             border-bottom: 2px solid #555;
             padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
         }
         p {
             margin: 5px 0;
@@ -53,15 +57,48 @@
         ul li {
             margin-bottom: 5px;
         }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="work.html">Work Samples</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Resume</h1>
+    </header>
     <div class="container">
         <h1>Jose Rocha</h1>
         <div class="contact-info">
             <p>Seattle, WA 98144</p>
             <p>Email: <a href="mailto:josearochag@outlook.com">josearochag@outlook.com</a></p>
-            <p>Phone: (206) 351-5650</p>
+            <p>Phone: <a href="tel:+12063515650">+1 206-351-5650</a></p>
         </div>
 
         <div class="section">
